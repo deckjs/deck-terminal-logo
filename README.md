@@ -1,7 +1,6 @@
 # terminal-logo
 
-A small app that allows Deck users to include an CLI logo in any CLI tools they may be building based on 
-nearForm terminal logo done by David Mark Clements: https://www.npmjs.com/package/nearform-terminal-logo
+Logo for Deck with same interace as nearForm terminal logo https://www.npmjs.com/package/nearform-terminal-logo
 
 
 ![image](./img/deck_logo_03.png)
