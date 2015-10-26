@@ -12,17 +12,20 @@ function logo(opts) {
   opts.text = (opts.text) ? opts.text : '';
 
   return              "\n"+
-    chalk.gray ("\n"+s(opts.leftPadding)+" #############") +
-    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("#############") + chalk.gray("#") +
-    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("##") + chalk.gray("###############") +
-    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("##") + chalk.gray("#") + chalk.white("##############") + chalk.gray("#") +
-    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("##") + chalk.gray("#") + chalk.white("###") + chalk.gray("#####") + chalk.white("######") + chalk.gray("#    ") + opts.text +
-    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("##") + chalk.gray("#") + chalk.white("###") + chalk.gray("#") + chalk.white("####") + chalk.gray("##") + chalk.white("####") + chalk.gray("#") +
-    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("##") + chalk.gray("#") + chalk.white("###") + chalk.gray("#") + chalk.white("#####") + chalk.gray("##") + chalk.white("###") + chalk.gray("#") +
-    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("##") + chalk.gray("#") + chalk.white("###") + chalk.gray("#") + chalk.white("####") + chalk.gray("##") + chalk.white("####") + chalk.gray("#") +
-    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.gray("###########") + chalk.white("######") + chalk.gray("#") +
-    chalk.gray ("\n"+s(opts.leftPadding)+"   ") + chalk.gray("#") + chalk.white("##############") + chalk.gray("#") +
-    chalk.gray ("\n"+s(opts.leftPadding)+"   ") + chalk.gray("#") + chalk.gray("#############") + chalk.gray("#") +
+    chalk.gray ("\n"+s(opts.leftPadding)+" ###############") +
+    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("###############") + chalk.gray("#") +
+    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("###############") + chalk.gray("#") +
+    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("###") + chalk.gray("#################") +
+    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("###") + chalk.gray("#") + chalk.white("################") + chalk.gray("#") +
+    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("###") + chalk.gray("#") + chalk.white("################") + chalk.gray("#") +
+    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("###") + chalk.gray("#") + chalk.white("####") + chalk.gray("#####") + chalk.white("#######") + chalk.gray("#") +
+    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("###") + chalk.gray("#") + chalk.white("####") + chalk.gray("#") + chalk.white("####") + chalk.gray("##") + chalk.white("#####") + chalk.gray("#") +
+    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("###") + chalk.gray("#") + chalk.white("####") + chalk.gray("#") + chalk.white("#####") + chalk.gray("##") + chalk.white("####") + chalk.gray("#    ") + chalk.cyan(opts.text) +
+    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.cyan("###") + chalk.gray("#") + chalk.white("####") + chalk.gray("#") + chalk.white("####") + chalk.gray("##") + chalk.white("#####") + chalk.gray("#") +
+    chalk.gray ("\n"+s(opts.leftPadding)+"#") + chalk.gray("#############") + chalk.white("#######") + chalk.gray("#") +
+    chalk.gray ("\n"+s(opts.leftPadding)+"    ") + chalk.gray("#") + chalk.white("################") + chalk.gray("#") +
+    chalk.gray ("\n"+s(opts.leftPadding)+"    ") + chalk.gray("#") + chalk.white("###############") + chalk.gray("#") +
+    chalk.gray ("\n"+s(opts.leftPadding)+"    ") + chalk.gray("#") + chalk.gray("##############") + chalk.gray("#") +
     "\n\n";
 }
 
@@ -30,4 +33,4 @@ logo.toTTY = function (opts) {
   return process.stdout.write(logo(opts));
 }
 
-module.exports = logo.toTTY({text: "Deck"});
+module.exports = logo.toTTY({text: "DECK"});
