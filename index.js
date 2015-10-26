@@ -12,20 +12,17 @@ function logo (opts) {
   opts.text = (opts.text) ? opts.text : ''
 
   return '\n' +
-  '\n' + s(opts.leftPadding) + chalk.white.dim(' ###############') +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('#') + chalk.gray('###############') + chalk.white.dim('#') +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('#') + chalk.gray('###############') + chalk.white.dim('#') +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('#') + chalk.gray('###') + chalk.white.dim('#################') +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('#') + chalk.gray('###') + chalk.white.dim('#') + chalk.white('################') + chalk.white.dim('#') +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('#') + chalk.gray('###') + chalk.white.dim('#') + chalk.white('################') + chalk.white.dim('#') +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('#') + chalk.gray('###') + chalk.white.dim('#') + chalk.white('####') + chalk.white.dim('#####') + chalk.white('#######') + chalk.white.dim('#') +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('#') + chalk.gray('###') + chalk.white.dim('#') + chalk.white('####') + chalk.white.dim('#') + chalk.white('####') + chalk.white.dim('##') + chalk.white('#####') + chalk.white.dim('#') +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('#') + chalk.gray('###') + chalk.white.dim('#') + chalk.white('####') + chalk.white.dim('#') + chalk.white('#####') + chalk.white.dim('##') + chalk.white('####') + chalk.white.dim('#    ') + chalk.gray(opts.text) +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('#') + chalk.gray('###') + chalk.white.dim('#') + chalk.white('####') + chalk.white.dim('#') + chalk.white('####') + chalk.white.dim('##') + chalk.white('#####') + chalk.white.dim('#') +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('##############') + chalk.white('#######') + chalk.white.dim('#') +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('    #') + chalk.white('################') + chalk.white.dim('#') +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('    #') + chalk.white('###############') + chalk.white.dim('#') +
-  '\n' + s(opts.leftPadding) + chalk.white.dim('    ################') +
+  '\n' + s(opts.leftPadding) + chalk.gray(' ĐĐĐĐĐĐĐĐĐĐĐĐĐĐĐ') +
+  '\n' + s(opts.leftPadding) + chalk.gray('Đ') + chalk.black('ĐĐĐĐĐĐĐĐĐĐĐĐĐĐĐ') + chalk.gray('Đ') +
+  '\n' + s(opts.leftPadding) + chalk.gray('Đ') + chalk.black('ĐĐĐ') + chalk.gray('ĐĐĐĐĐĐĐĐĐĐĐĐĐĐĐĐĐ') +
+  '\n' + s(opts.leftPadding) + chalk.gray('Đ') + chalk.black('ĐĐĐ') + chalk.gray('Đ') + chalk.white('ĐĐĐĐĐĐĐĐĐĐĐĐĐĐĐĐ') + chalk.gray('Đ') +
+  '\n' + s(opts.leftPadding) + chalk.gray('Đ') + chalk.black('ĐĐĐ') + chalk.gray('Đ') + chalk.white('ĐĐĐĐ') + chalk.gray('ĐĐĐĐĐ') + chalk.white('ĐĐĐĐĐĐĐ') + chalk.gray('Đ') +
+  '\n' + s(opts.leftPadding) + chalk.gray('Đ') + chalk.black('ĐĐĐ') + chalk.gray('Đ') + chalk.white('ĐĐĐĐ') + chalk.gray('Đ') + chalk.white('ĐĐĐĐ') + chalk.gray('ĐĐ') + chalk.white('ĐĐĐĐĐ') + chalk.gray('Đ') +
+  '\n' + s(opts.leftPadding) + chalk.gray('Đ') + chalk.black('ĐĐĐ') + chalk.gray('Đ') + chalk.white('ĐĐĐĐ') + chalk.gray('Đ') + chalk.white('ĐĐĐĐĐ') + chalk.gray('ĐĐ') + chalk.white('ĐĐĐĐ') + chalk.gray('Đ    ') + chalk.white(opts.text) +
+  '\n' + s(opts.leftPadding) + chalk.gray('Đ') + chalk.black('ĐĐĐ') + chalk.gray('Đ') + chalk.white('ĐĐĐĐ') + chalk.gray('Đ') + chalk.white('ĐĐĐĐ') + chalk.gray('ĐĐ') + chalk.white('ĐĐĐĐĐ') + chalk.gray('Đ') +
+  '\n' + s(opts.leftPadding) + chalk.gray('ĐĐĐĐĐĐĐĐĐĐĐĐĐĐ') + chalk.white('ĐĐĐĐĐĐĐ') + chalk.gray('Đ') +
+  '\n' + s(opts.leftPadding) + chalk.gray('    Đ') + chalk.white('ĐĐĐĐĐĐĐĐĐĐĐĐĐĐĐĐ') + chalk.gray('Đ') +
+  '\n' + s(opts.leftPadding) + chalk.gray('    ĐĐĐĐĐĐĐĐĐĐĐĐĐĐĐĐ') +
   '\n\n'
 }
 
