@@ -1,6 +1,6 @@
 {
   "name": "@deck/terminal-logo",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Logo for Deck with same interface as nearform-terminal-logo",
   "main": "index.js",
   "scripts": {
